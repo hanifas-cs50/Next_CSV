@@ -7,7 +7,6 @@ export default async function ViewPage() {
 
   return (
     <main className="min-h-screen p-8 flex flex-col items-center">
-      <h1 className="text-3xl font-bold mb-6">Car List</h1>
       <div className="w-full max-w-4xl">
         <CarTable initialData={cars} />
       </div>
